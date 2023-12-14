@@ -1,7 +1,7 @@
 """Get all combinations."""
 
 
-def combinations(a: list, r: int) -> int:
+def combinations(a: list, r: int) -> list:
     """Calculate combinations.
 
     Given a list of size n, generate and print all possible combinations of r
@@ -16,7 +16,7 @@ def combinations(a: list, r: int) -> int:
 
     Returns
     -------
-    int
+    list
         all combinations of a of length r
 
     """
